@@ -1,0 +1,66 @@
+h1{
+    font-size: 50px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+    margin-left: 5%;
+}
+.button-top{
+    background-image:  linear-gradient(to right , orange , tomato ) ;  
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    color: aliceblue;
+}
+h2{
+    font-size: 40px;
+}
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience-sec{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.card{
+    border-radius: 10px;
+   height: 400px;
+   box-shadow:  10px 10px 30px gray;
+}
+#fullstack-dev{
+    border-left: 10px solid tomato;
+}
+#baby-dev{
+    border-left: 10px solid blue;
+}
+.experience-sec h3{
+    color: orange;
+}
+.dream-area h3{
+    color: orange;
+}
+p{
+    color: dimgray;
+}
